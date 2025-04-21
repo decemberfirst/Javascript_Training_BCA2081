@@ -21,3 +21,5 @@ const myAnotherNumber = 20;
 // myAnotherNumber = 30; this throws an error, constants cannot be changed
 
 var myLastNumber = 40;
+
+let नमस्ते = 'Rohan';
