@@ -39,7 +39,7 @@ let number = 10.1; // (more generic data type -> number)
 
 //  0 0 0  // 0 (IEEE-754 floating point representation)
 
-let myNumber = 9007199254740993; // max
+let myNumber = 9007199254740991; // max
 let myMinimumNumber = -9007199254740991; // min
 
 let myBinary = 0b1010;
@@ -67,4 +67,4 @@ let isMarried = true;
 let canVote = false; // more when we get into if else ...
 
 let myVariable;
-console.log(myVariable); // returns undefined (value is not defined
+console.log(myVariable); // returns undefined value is not defined
