@@ -48,12 +48,3 @@ console.log(myNumberBoolean); // non zero value -> true, zero -> false
 
 let myStringValue = String(); // ALL OF THEM ARE POSSIBLE (IGNORE BigInt)
 console.log(myStringValue);
-
-// PRACTICE PROBLEMS
-
-// console.log(true + 1); // 2
-
-// TYPE COERTION
-
-console.log('100' - 20);
-console.log('100' + 200);

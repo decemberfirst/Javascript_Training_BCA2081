@@ -1,6 +1,6 @@
 // DATA TYPES IN JAVASCRIPT
 
-// STRING
+// STRING ``
 // NUMBER, INTEGER, FLOAT
 // BIGINT
 // BOOLEAN
@@ -38,8 +38,9 @@ let number = 10.1; // (more generic data type -> number)
 // 1 1 1
 
 //  0 0 0  // 0 (IEEE-754 floating point representation)
+// 1 1 1  (2 ^ n - 1)
 
-let myNumber = 9007199254740991; // max
+let myNumber = 900719925474092; // max
 let myMinimumNumber = -9007199254740991; // min
 
 let myBinary = 0b1010;
@@ -52,7 +53,6 @@ let myHex = 0xf; // ( 0 - 9, A, B, C D E F)
 console.log(myHex);
 
 // 3 ) BIG INT
-
 let myBigInt = 1000n;
 let myAnotherBigInt = 10000n;
 console.log(typeof myAnotherBigInt); // string , BigInt, Number
