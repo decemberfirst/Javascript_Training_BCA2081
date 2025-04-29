@@ -43,10 +43,10 @@ console.log(`My name is ${firstName} ${lastName}. My DOB is ${DOB}`); // STRING 
 // CHINA
 // BHUTAN
 // BANGLDESH
-// BHARAT
+// INDIA
 // PAKISTAN
-// MAYANMAR
-// SHRILANKA
+// MYANMAR
+// SRILANKA
 // JAPAN
 // KOREA
 
