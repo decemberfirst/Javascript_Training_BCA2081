@@ -27,7 +27,7 @@ console.log(3 << 1); // left shift
 
 // right shift
 
-console.log(4 << 1);
+console.log(4 >> 1);
 
 //  1 0 0
 // 0 1 0 => 2
@@ -43,7 +43,7 @@ console.log(4 << 1);
 
 // SYNTAX: condition ? what if true : if false
 
-console.log(10 > 2 ? 'Greater than 2' : 'Less than 2');
+console.log(null ? 'Greater than 2' : 'Less than 2');
 
 const USERNAME = 'admin';
 const PASSWORD = 'admin';
