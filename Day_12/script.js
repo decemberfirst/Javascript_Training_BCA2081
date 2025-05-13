@@ -9,9 +9,11 @@
 
 // SYNTAX: for(initialize_count; condition; increment/decrement) { }
 
-// for (let count = 1; count <= 100; count++) {
-//   console.log('Your name');
-// }
+for (let count = 1; count <= 100; count++) {
+  if (count % 3 == 0 && count % 5 == 0) {
+    console.log(count);
+  }
+}
 
 // WAP TO PRINT NUMBER FROM 1 TO 100
 // WAP TO PRINT NUMBER FROM 100 TO 1
@@ -24,9 +26,13 @@
 // WAP TO PRINT ODD NUMBER FROM A TO B
 // TAKE A AND B FROM USER
 // IF USER GIVES A=2 YOU HAVE TO START PRINTING FROM 3
+// let A = Number(prompt('Enter first number'));
+// let B = Number(prompt("Enter second number"))
 
-let A = Number(prompt('Enter first number')); // 11
-let B = Number(prompt('Enter second number')); // 10
+// for()
+
+let A = Number(prompt('Enter first number')); // 1
+let B = Number(prompt('Enter second number')); //10
 
 for (let count = A; count <= B; count++) {
   if (count % 2 == 1) {
