@@ -1,6 +1,7 @@
 // --------------SWITCH CASE---------------------
 // EXACTLY SAME AS IF ELSE IF
 // ONLY SYNTACTIC SUGAR (ANOTHER SYNTAX FOR IF ELSE)
+
 let caseTOMatch = 'other';
 
 switch (caseTOMatch) {
