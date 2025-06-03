@@ -53,9 +53,9 @@ console.log(anotherDog);
 console.log(dogObject);
 
 let firstName = 'Ram';
-let secondName = firstName;
+let secondName = firstName; // Pass by value
 
 secondName = 'SHYAM';
 
-console.log(firstName);
-console.log(secondName);
+console.log(firstName); // Ram
+console.log(secondName); // SHYAM
