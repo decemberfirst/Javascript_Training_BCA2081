@@ -95,10 +95,19 @@ console.log(myNestedObject);
 // ------------------------------- FUNCTION -------------------------------------
 // F = 2 + 2
 // F(X) =  2X + 2
-// LET ABC(X) =  X^2 + 4
-// F(2) -> 8
+//
+// LET ABC(X) =  X^2 + 4 // PARAMETER
+// ABC(2) -> 8
+
+// DETERMINISTIC
+// NON-DETERMINISTIC
 
 // LET F(X) = CURRENT_TIME + X
+
+// F(2) = 12 + 2 = 14
+// F(2) = 1 + 2 = 3
+
+// F(x) = random() + x; // non deterministic
 
 // LET F(2) = 2 + 2 = 4
 
@@ -157,5 +166,96 @@ function Addition(X, Y) {
 
 Addition(10); // function call, invoke
 
+// TODO:
 // ---------- create a function to print name-------
 // use parameters or take input from parameter
+
+// TODO:
+// create a function to calculate area of rectangle
+// use parameters
+
+// TODO:
+// create a function to print welcome message
+// output should be Hello __name__, welcome to our platform.
+// its good to know you are from __address__
+// see you next __dayname__
+
+function welcomePerson(name, address, dayname) {
+  console.log(
+    `Hello ${name}, welcome to our platform \n its good to know you are from ${address} \n see you next ${dayname}`
+  );
+}
+
+welcomePerson('rohan', 'devdaha', 'sunday');
+
+// --------------------------------------
+
+// f(x) = 2x + 2
+// f(2)
+// f(3)
+
+function f(x) {
+  let result = 2 * x + 2;
+  console.log(result);
+}
+
+f(2);
+
+// CREATE A FUNCTION TO FIND SUM OF TWO NUMBERS
+// F(A,B) = A + B
+// EG. F(2,2) = 2 + 2 = 4
+
+function f(a, b) {
+  // function definition
+  let result = a + b;
+  console.log(result);
+}
+
+f(10, 20); // function call / invoke
+
+function DynamicFunction(countryName) {
+  console.log('I live in ' + countryName);
+}
+
+DynamicFunction('Nepal');
+DynamicFunction('India');
+
+// TODO:
+// CREATE FUNCTION NAMED: findSmallest(a,b)
+// TAKE TWO INPUT FROM USER
+// FIND SMALLEST AMONG THOSE
+
+// TODO:
+// CREATE FUNCTION calculateSumOfArray(array)
+// calculate the sum of elements of array
+// console them
+
+function calculateSumOfArray(array) {
+  let sum = 0;
+  for (let i = 0; i < array.length; i++) {
+    sum += array[i];
+  }
+  console.log(sum);
+}
+
+calculateSumOfArray([1, 2, 3, 4, 5]);
+calculateSumOfArray([1, 2, 3, 4, 5]);
+
+// TODO: SEARCH AND LEARN FUNCTION SIDE EFFECT ON GOOGLE: vvvimp
+// PURE FUNCTION VS SIDE EFFECT FUNCTION
+
+// FUNCTION RETURNING VALUE
+
+function CalculateSum(a, b) {
+  let sum = a + b;
+  return sum;
+}
+
+let result = CalculateSum(1, 2);
+console.log(result);
+
+// TODO:
+// CREATE A FUNCTION TO WELCOME USER
+// TAKE USER NAME AS PARAMETER
+// RETURN VALUE OUTSIDE FUNCTION
+// CONSOLE THE WELCOME TEXT OUTSIDE OF FUNCTION
