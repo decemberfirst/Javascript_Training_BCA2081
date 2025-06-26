@@ -50,6 +50,7 @@ console.log(greatest);
 let myArray = [1, 2, 3, 4, 5];
 let reversed = [];
 
+// palindrome, armstrong
 for (let index = 0; index < myArray.length; index++) {
   reversed.unshift(myArray[index]);
 }

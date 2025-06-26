@@ -7,14 +7,13 @@ let myStudentList = ['abc', 'cde', 'asd'];
 // console.log(removedValue);
 
 myStudentList.unshift('added on first'); // add on first place
+myStudentList.push('last value');
 console.log(myStudentList);
-
 let myArray = [1, 2, 3, 4, 5, 7, 5, 8, 9, 10, 6];
-console.log(myArray[myArray.length - 1]);
-console.log(myArray.indexOf(5));
-console.log(myArray.lastIndexOf(5));
-
-myArray[myArray.indexOf(6)] = 16;
+console.log(myArray[myArray.length - 1]); // print last element of array
+console.log(myArray.indexOf(5)); // 4 (first one)
+console.log(myArray.lastIndexOf(5)); // 6 (last one)
+myArray[myArray.indexOf(3)] = 16;
 console.log(myArray);
 
 let myArrayChunk = myArray.slice(2, 5); // (start, end - 1), IMMUTABLE
@@ -26,9 +25,9 @@ myArray.splice(0, 3); // MUTABLE
 console.log(myArray);
 
 // --------------ARRAY DESTRUCTURING--------------------------
-let [first, second, ...rest] = ['ram', 'shyam', 'hari', 'sita']; // rest operator
+let [, , ...rest] = ['ram', 'shyam', 'hari', 'sita']; // rest operator
 
-// let first = myArrays[0];
+// let first = myArrays[0]; // naive -> ghatiya
 // let second = myArrays[1];
 // let third = myArrays[2];
 
@@ -39,6 +38,5 @@ console.log(rest);
 
 let firstArray = [1, 2, 3, 4, 5];
 let secondArray = [6, 7, 8, 9, 10];
-
 let joinedArray = [...firstArray, ...secondArray];
 console.log(joinedArray);
