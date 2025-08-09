@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>OTP Generator</title>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+  </head>
+  <body>
+    <form id="form">
+      <div id="sendOtpSection">
+        <label for="email">Email</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          required
+        />
+        <button
+          type="button"
+          onclick="sendOtp()"
+        >
+          Send OTP
+        </button>
+      </div>
+
+      <div
+        id="verifyOtpSection"
+        style="display: none"
+      >
+        <input
+          type="text"
+          placeholder="Enter OTP"
+          id="otp"
+          required
+        />
+        <button
+          type="button"
+          onclick="verifyOtp()"
+        >
+          Verify OTP
+        </button>
+      </div>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
